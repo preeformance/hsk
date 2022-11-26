@@ -3,21 +3,21 @@ import { levelOneWords } from "../data/levelOne";
 
 function Question() {
   const randomizer = Math.floor(Math.random() * levelOneWords.length);
-  const randomWord = levelOneWords[randomizer];
+  const answer = levelOneWords[randomizer];
+  let optionArray = [answer.Simplified];
 
-  function randomOptions() {
+  while (optionArray.length < 5) {
     if (
-      levelOneWords[Math.floor(Math.random() * levelOneWords.length)] !=
-      randomWord
+      !optionArray.includes(
+        levelOneWords[Math.floor(Math.random() * levelOneWords.length)]
+      )
     ) {
-      return levelOneWords[Math.floor(Math.random() * levelOneWords.length)]
-        .Simplified;
-    } else {
-      return levelOneWords[Math.floor(Math.random() * levelOneWords.length) + 1]
-        .Simplified;
+      optionArray.push[
+        levelOneWords[Math.floor(Math.random() * levelOneWords.length)]
+          .Simplified
+      ];
     }
   }
-
   return (
     <div>
       <ul type="disc">
@@ -27,12 +27,15 @@ function Question() {
             color: "red",
           }}
         >
-          {randomWord.English}
+          {/* quiz question: What does this mean? */}
+          {answer.English}
         </li>
-        <button>{randomWord.Simplified}</button>
-        <button>{randomOptions()}</button>
-        <button>{randomOptions()}</button>
-        <button>{randomOptions()}</button>
+        {/* multiple choice */}
+
+        <button>{optionArray[0]}</button>
+        <button>{optionArray[1]}</button>
+        <button>{optionArray[2]}</button>
+        <button>{optionArray[3]}</button>
       </ul>
     </div>
   );

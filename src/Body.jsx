@@ -7,7 +7,7 @@ function Body() {
   return (
     <div>
       <Starter />
-
+      <Question />
       <Quiz />
     </div>
   );
