@@ -1,5 +1,12 @@
 export const levelOneWords = [
       {
+    English: "month, moon",
+    Pinyin: "yuè",
+    Simplified: "月",
+    Traditional: "月",
+    Category: "noun",
+  }, 
+  {
     English: "goodbye",
     Pinyin: "zàijiàn",
     Simplified: "再见",
