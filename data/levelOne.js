@@ -1,5 +1,12 @@
 export const levelOneWords = [
-      {
+   {
+    English: "to have, to exist, to be",
+    Pinyin: "yǒu",
+    Simplified: "有",
+    Traditional: "有",
+    Category: "verb",
+  },     
+  {
     English: "month, moon",
     Pinyin: "yuè",
     Simplified: "月",
