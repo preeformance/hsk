@@ -1,5 +1,12 @@
 export const levelOneWords = [
    {
+    English: "chair",
+    Pinyin: "yǐ zi",
+    Simplified: "椅子",
+    Traditional: "椅子",
+    Category: "noun",
+  }, 
+   {
     English: "to have, to exist, to be",
     Pinyin: "yǒu",
     Simplified: "有",
