@@ -1,4 +1,11 @@
 export const levelOneWords = [
+     {
+    English: "clothes",
+    Pinyin: "yī fu",
+    Simplified: "衣服",
+    Traditional: "衣服",
+    Category: "noun",
+  },  
    {
     English: "chair",
     Pinyin: "yǐ zi",
