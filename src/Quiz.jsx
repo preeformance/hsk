@@ -1,28 +1,34 @@
 import React from "react";
-import { levelOneWords } from "../data/levelOne";
 
-function Quiz() {
-  const listWords = levelOneWords.map((element) => {
-    return (
-      <ul type="disc">
-        <li
-          style={{
-            fontWeight: "bold",
-            color: "red",
-          }}
-        >
-          {element.English}
-        </li>
-        <li>{element.Simplified}</li>
-      </ul>
-    );
-  });
+
+export default function Quiz(props) {
+
   return (
     <div>
-      {/* grab random question and correct answer along with 3 random options */}
-      {listWords}
+      <h2>Select the correct translation:</h2>
     </div>
-  );
+  )
 }
 
-export default Quiz;
+
+// const listWords = levelOneWords.map((element) => {
+//   return (
+//     <ul type="disc">
+//       <li
+//         style={{
+//           fontWeight: "bold",
+//           color: "red",
+//         }}
+//       >
+//         {element.english}
+//       </li>
+//       <li>{element.simplified}</li>
+//     </ul>
+//   );
+// });
+// return (
+//   <div>
+//     {/* grab random question and correct answer along with 3 random options */}
+//     {listWords}
+//   </div>
+// );
