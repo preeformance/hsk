@@ -5,6 +5,7 @@ export const levelOneWords = [
     Simplified: "衣服",
     Traditional: "衣服",
     Category: "noun",
+    isCorrect: false, 
   },  
    {
     English: "chair",
@@ -12,6 +13,7 @@ export const levelOneWords = [
     Simplified: "椅子",
     Traditional: "椅子",
     Category: "noun",
+    isCorrect: false, 
   }, 
    {
     English: "to have, to exist, to be",
@@ -19,6 +21,7 @@ export const levelOneWords = [
     Simplified: "有",
     Traditional: "有",
     Category: "verb",
+    isCorrect: false, 
   },     
   {
     English: "month, moon",
@@ -26,6 +29,7 @@ export const levelOneWords = [
     Simplified: "月",
     Traditional: "月",
     Category: "noun",
+    isCorrect: false, 
   }, 
   {
     English: "goodbye",
@@ -33,6 +37,7 @@ export const levelOneWords = [
     Simplified: "再见",
     Traditional: "再見",
     Category: "interjection",
+    isCorrect: false, 
   },  
    {
     English: "how",
@@ -40,6 +45,7 @@ export const levelOneWords = [
     Simplified: "怎么",
     Traditional: "怎麼",
     Category: "pronoun",
+    isCorrect: false, 
   }, 
    {
     English: "how",
@@ -47,6 +53,7 @@ export const levelOneWords = [
     Simplified: "怎么样",
     Traditional: "怎麼樣",
     Category: "pronoun",
+    isCorrect: false, 
   },   
    {
     English: "this",
@@ -54,6 +61,7 @@ export const levelOneWords = [
     Simplified: "这",
     Traditional: "這",
     Category: "pronoun",
+    isCorrect: false, 
   }, 
    {
     English: "here",
@@ -61,6 +69,7 @@ export const levelOneWords = [
     Simplified: "这儿",
     Traditional: "這兒",
     Category: "pronoun",
+    isCorrect: false, 
   }, 
    {
     English: "China",
@@ -68,6 +77,7 @@ export const levelOneWords = [
     Simplified: "中国",
     Traditional: "中國",
     Category: "noun",
+    isCorrect: false, 
   }, 
    {
     English: "noon",
@@ -75,6 +85,7 @@ export const levelOneWords = [
     Simplified: "中午",
     Traditional: "中午",
     Category: "noun",
+    isCorrect: false, 
   },   
   {
     English: "live",
@@ -82,6 +93,7 @@ export const levelOneWords = [
     Simplified: "住",
     Traditional: "住",
     Category: "verb",
+    isCorrect: false, 
   },
   {
     English: "desk, table",
@@ -89,6 +101,7 @@ export const levelOneWords = [
     Simplified: "桌子",
     Traditional: "桌子",
     Category: "noun",
+    isCorrect: false, 
   },  
   {
     English: "character",
@@ -96,6 +109,7 @@ export const levelOneWords = [
     Simplified: "字",
     Traditional: "字",
     Category: "noun",
+    isCorrect: false, 
   }, 
   {
     English: "yesterday",
@@ -103,6 +117,7 @@ export const levelOneWords = [
     Simplified: "昨天",
     Traditional: "昨天",
     Category: "noun",
+    isCorrect: false, 
   },  
   {
     English: "sit",
@@ -110,6 +125,7 @@ export const levelOneWords = [
     Simplified: "坐",
     Traditional: "坐",
     Category: "verb",
+    isCorrect: false, 
   },  
   {
     English: "do",
@@ -117,6 +133,7 @@ export const levelOneWords = [
     Simplified: "做",
     Traditional: "做",
     Category: "verb",
+    isCorrect: false, 
   },
   {
     English: "love",
@@ -124,6 +141,7 @@ export const levelOneWords = [
     Simplified: "爱",
     Traditional: "愛",
     Category: "noun",
+    isCorrect: false, 
   },
   {
     English: "eight",
@@ -131,6 +149,7 @@ export const levelOneWords = [
     Simplified: "八",
     Traditional: "八",
     Category: "number",
+    isCorrect: false, 
   },
   {
     English: "dad, father",
@@ -138,6 +157,7 @@ export const levelOneWords = [
     Simplified: "爸爸",
     Traditional: "爸爸",
     Category: "noun",
+    isCorrect: false, 
   },
   {
     English: "I, me",
@@ -145,6 +165,7 @@ export const levelOneWords = [
     Simplified: "我",
     Traditional: "我",
     Category: "pronoun",
+    isCorrect: false, 
   },
   {
     English: "we, us (pl.)",
@@ -152,5 +173,6 @@ export const levelOneWords = [
     Simplified: "我们",
     Traditional: "我們",
     Category: "pronoun",
+    isCorrect: false, 
   },
 ];
