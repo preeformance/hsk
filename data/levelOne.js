@@ -1,5 +1,13 @@
 export const levelOneWords = [
-           {
+    {
+    English: "student",
+    Pinyin: "xué sheng",
+    Simplified: "学生",
+    Traditional: "學生",
+    Category: "noun",
+    isCorrect: false, 
+  },
+    {
     English: "to learn, to study",
     Pinyin: "xué xí",
     Simplified: "学习",
