@@ -1,5 +1,13 @@
 export const levelOneWords = [
     {
+    English: "week",
+    Pinyin: "xīng qī",
+    Simplified: "星期",
+    Traditional: "星期",
+    Category: "noun",
+    isCorrect: false, 
+  },
+    {
     English: "student",
     Pinyin: "xué sheng",
     Simplified: "学生",
