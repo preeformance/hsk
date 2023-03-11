@@ -1,5 +1,29 @@
 export const levelOneWords = [
   {
+    english: "speak",
+    pinyin: "shuō",
+    simplified: "说",
+    traditional: "說",
+    category: "verb",
+    isCorrect: false,
+  },
+  {
+    english: "four",
+    pinyin: "sì",
+    simplified: "四",
+    traditional: "四",
+    category: "adjective",
+    isCorrect: false,
+  },
+  {
+    english: "years (of age),
+    pinyin: "suì",
+    simplified: "岁",
+    traditional: "歲",
+    category: "adjective",
+    isCorrect: false,
+  },
+  {
     english: "he, him",
     pinyin: "tā",
     simplified: "他",
