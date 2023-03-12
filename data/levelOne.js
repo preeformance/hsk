@@ -1,5 +1,29 @@
 export const levelOneWords = [
   {
+    english: "hot",
+    pinyin: "rè",
+    simplified: "热",
+    traditional: "熱",
+    category: "adjective",
+    isCorrect: false,
+  },
+  {
+    english: "person",
+    pinyin: "rén",
+    simplified: "人",
+    traditional: "人",
+    category: "noun",
+    isCorrect: false,
+  },
+  {
+    english: "to meet",
+    pinyin: "rèn shi",
+    simplified: "认识",
+    traditional: "認識",
+    category: "verb",
+    isCorrect: false,
+  },
+  {
     english: "three",
     pinyin: "sān",
     simplified: "三",
