@@ -1,9 +1,25 @@
 export const levelOneWords = [
   {
-    english: "speak",
-    pinyin: "shuō",
-    simplified: "说",
-    traditional: "說",
+    english: "water",
+    pinyin: "shuǐ",
+    simplified: "水",
+    traditional: "水",
+    category: "noun",
+    isCorrect: false,
+  },
+  {
+    english: "fruit",
+    pinyin: "shuǐguǒ",
+    simplified: "水果",
+    traditional: "水果",
+    category: "noun",
+    isCorrect: false,
+  },
+  {
+    english: "to go to sleep",
+    pinyin: "shuì jiào",
+    simplified: "睡觉",
+    traditional: "睡覺",
     category: "verb",
     isCorrect: false,
   },
@@ -16,7 +32,7 @@ export const levelOneWords = [
     isCorrect: false,
   },
   {
-    english: "years (of age),
+    english: "years (of age)",
     pinyin: "suì",
     simplified: "岁",
     traditional: "歲",
