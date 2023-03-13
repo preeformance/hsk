@@ -1,5 +1,29 @@
 export const levelOneWords = [
   {
+    english: "restaurant",
+    pinyin: "fàn diàn",
+    simplified: "饭店",
+    traditional: "高興",
+    category: "noun",
+    isCorrect: false,
+  },
+  {
+    english: "airplane",
+    pinyin: "fēi jī",
+    simplified: "飞机",
+    traditional: "飛機",
+    category: "noun",
+    isCorrect: false,
+  },
+  {
+    english: "minute",
+    pinyin: "fēn zhōng",
+    simplified: "分钟",
+    traditional: "分鍾",
+    category: "noun",
+    isCorrect: false,
+  },
+  {
     english: "happy",
     pinyin: "gāo xìng",
     simplified: "高兴",
