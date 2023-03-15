@@ -1,12 +1,11 @@
-import React, {useState, useEffect} from "react";
-import { levelOneWords } from "../data/levelOne";
+// import React, {useState, useEffect} from "react";
+// import { levelOneWords } from "../data/levelOne";
 
-export default function Question(){
-  
-  const questionFormat = 
-  const arrayOfAnswers = 
-}
+// export default function Question(){
 
+//   const questionFormat =
+//   const arrayOfAnswers =
+// }
 
 // function Question() {
 //   const randomizer = Math.floor(Math.random() * levelOneWords.length);
