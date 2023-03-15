@@ -11,9 +11,9 @@ function Quiz() {
             color: "red",
           }}
         >
-          {element.English}
+          {element.english}
         </li>
-        <li>{element.Simplified}</li>
+        <li>{element.simplified}</li>
       </ul>
     );
   });
